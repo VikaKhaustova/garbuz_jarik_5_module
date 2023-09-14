@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.socials{
+    position: fixed;
+    right: 0;
+    top: 230px;
+    background-color: #3c0470;
+    border-radius: 10px;
+    width: 100px;
+    height: 390px;
+    padding: 20px;
+    border: 3px groove grey; 
+}
+
+.wow-hit{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+h1::before {  
+    
+    display: inline-block;
+    margin-right: 20px;
+    content: url(https://i.ibb.co/hHW8CYh/award-8207550-1280-1-1.png);
+}
+
+
+h1::after {
+    
+    display: inline-block;
+    margin-left: 10px;
+    content: url(https://i.ibb.co/hHW8CYh/award-8207550-1280-1-1.png);
+}
+
+.tel::before {
+    
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 30px;
+    content: url(https://i.ibb.co/Kwf5Bzf/communication-1294239-1280.png);
+
+}
+
+.address::before {
+   
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 30px;
+    content: url(https://i.ibb.co/pKNKZSp/image-2-4.png);
+}
+
+.nav-link:hover {
+    border: 5px solid royalblue;
+    color: royalblue;
+}
+
+.post:hover .article-but {
+    border: 5px solid #133aac;
+    background-color: royalblue;
+    color: #133aac;
+}
+
+.post:hover{
+    border-radius: 5px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
